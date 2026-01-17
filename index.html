@@ -1,12 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokémon Search</title>
-
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <main class="container">
+        <h1 class="title">Поиск покемона</h1>
+        
+        <form class="search-form">
+            <input type="text" class="search-input" placeholder="Введите имя покемона...">
+            <button type="submit" class="search-button">Найти</button>
+        </form>
+        <div class="pokemon-list">
+        </div>
+    </main>
 </body>
 </html>
